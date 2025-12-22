@@ -11,8 +11,7 @@ const Stair = (props) => {
      const pageRef = useRef(null);
      
 
- useGSAP(
-  () => {
+ useGSAP(() => {
      const tl = gsap.timeline();
 
       tl.to(stairParentRef.current, {
