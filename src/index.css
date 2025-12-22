@@ -9,3 +9,23 @@
   src: url(../public/fonts/Lausanne-500.woff2);
 }
 
+.moveLink{
+  opacity: 0;
+}
+
+.link:hover .moveLink{
+  opacity: 1;
+}
+
+.moveX {
+  animation: moveAnimation 10s linear infinite;
+}
+
+@keyframes moveAnimation {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
