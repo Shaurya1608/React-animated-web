@@ -11,7 +11,7 @@ const HomeHeroText = () => {
         <Video />
         </div>
         generate
-        </div >
+        </div > 
       <div className='text-[9vw] uppercase leading-[8vw] flex items-center justify-center' >creativity</div >
     </div >
   )

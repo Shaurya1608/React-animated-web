@@ -30,8 +30,14 @@ const Agence = () => {
       scrollTrigger:{
         trigger:imageDivRef.current,
         start:"top 29%",
-        end:'bottom -60%',
+        end:'top -60%',
         pin:true,
+        pinSpacing:true,
+        pinReparent:true,
+        pinType:'transform',
+        scrub:1,
+        anticipatePin:1,
+        invalidateOnRefresh:true,
         onUpdate:(elem)=>{
           let imageIndex 
           if(elem.progress<1){
@@ -48,8 +54,8 @@ const Agence = () => {
 
   return (
    <div>
-    <div className='section1'>
-    <div ref={imageDivRef} className='absolute overflow-hidden h-[20vw] w-[15vw]   top-60 left-[30vw] rounded-4xl'>
+    <div className='section1 relative py-1'>
+    <div ref={imageDivRef} className='absolute overflow-hidden h-[20vw] w-[15vw] top-96 left-[30vw] rounded-4xl'>
         <img ref={imageRef} className='h-full w-full object-cover' src="https://k72.ca/images/teamMembers/Michele_480X640.jpg?w=480&h=640&fit=crop&s=ce85dc6d140947736baa739d0e59dab2" alt="" />
     </div>
      <div className=' relative font-[font1]'>

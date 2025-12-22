@@ -1,12 +1,14 @@
-import React from 'react'
+
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Agence from './pages/Agence.jsx'
 import Project from './pages/Project.jsx'
 
+
 const App = () => {
+
   return (
-    <div className='text-white' >
+    <div  >
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/agence' element={<Agence/>}/>
