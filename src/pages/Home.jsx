@@ -1,7 +1,7 @@
 import React from 'react'
 import Video from '../components/home/Video.jsx'
 import HomeHeroText from '../components/home/HomeHeroText.jsx'
-import HomeBottomText from '../components/home/homeBottomText.jsx'
+import HomeBottonText from '../components/home/HomeBottonText.jsx'
 
 
 
@@ -14,7 +14,7 @@ const Home = () => {
 
     <div className=' h-screen w-screen relative pb-4 overflow-hidden flex flex-col justify-between '>
           <HomeHeroText/>
-          <HomeBottomText/>
+          <HomeBottonText/>
     </div>
 
 

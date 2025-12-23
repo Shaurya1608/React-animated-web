@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-const HomeBottomText = () => {
+const HomeBottonText = () => {
   return (
     <div className='font-[font2] flex justify-center items-center gap-2 '>
       <p className='absolute lg:w-80 w-60 lg:base text-xs right-0 lg:bottom-40 bottom-37 font-[font1] pr-2 leading-tight'>
@@ -18,4 +18,4 @@ const HomeBottomText = () => {
   )
 }
 
-export default HomeBottomText
+export default HomeBottonText
