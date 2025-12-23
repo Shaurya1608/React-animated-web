@@ -55,16 +55,16 @@ const Agence = () => {
   return (
    <div>
     <div className='section1 relative py-1'>
-    <div ref={imageDivRef} className='absolute overflow-hidden h-[20vw] w-[15vw] top-96 left-[30vw] rounded-4xl'>
+    <div ref={imageDivRef} className='absolute overflow-hidden lg:h-[20vw] h-[30vw] lg:w-[15vw] w-[20vw] lg:top-96 top-80 lg:left-[30vw] left-[20vw] rounded-xl lg:rounded-4xl'>
         <img ref={imageRef} className='h-full w-full object-cover' src="https://k72.ca/images/teamMembers/Michele_480X640.jpg?w=480&h=640&fit=crop&s=ce85dc6d140947736baa739d0e59dab2" alt="" />
     </div>
-     <div className=' relative font-[font1]'>
-      <div className=' mt-[55vh]'>
+     <div className=' relative font-[font2]'>
+      <div className=' lg:mt-[55vh] mt-[40vh]'>
         <h1 className='text-[21vw] text-center uppercase leading-[17vw]'>Seventy <br />
         Two</h1>
       </div>
-      <div className='pl-[40%] mt-20'>
-        <p className='text-5xl'> &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+      <div className='lg:pl-[40%] pl-[3%] mt-20 '>
+        <p className='lg:text-5xl text-xl leading-tight'> &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
           Our curiosity fuels our creativity. We stay humble and leave big egos at the door. 
          We believe a brand is alive — shaped by its values, personality, and story. 
          When those are ignored, short-term success may follow, but long-term impact is lost. 
